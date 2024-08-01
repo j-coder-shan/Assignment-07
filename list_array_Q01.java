@@ -1,8 +1,8 @@
-public class list_array {
+public class list_array_Q01 {
     int[] list;
     int size, count;
 
-    list_array(int maxSize) {
+    list_array_Q01(int maxSize) {
         size = maxSize;
         list = new int[size];
         count = 0;

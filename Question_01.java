@@ -6,7 +6,7 @@ public class Question_01 {
 
         System.out.println("Enter the size of the list:");
         int size = input.nextInt();
-        list_array listArray = new list_array(size);
+        list_array_Q01 listArray = new list_array_Q01(size);
 
         System.out.println("Enter the number of elements to be inserted: )");
         for (int i = 0; i < size; i++) {
