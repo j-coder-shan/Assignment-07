@@ -13,16 +13,13 @@ public class Question_01 {
             int element = input.nextInt();
             listArray.insertLast(element);
         }
-        //method to calculate mean
+
         listArray.calculateMean();
 
-        //method to calculate median
         listArray.calculateMedian();
 
-        //method to calculate mode
         listArray.calculateMode();
 
-        //method to calculate range
         listArray.calculateRange();
     }
 }
