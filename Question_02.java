@@ -41,3 +41,19 @@ public class Question_02 {
         System.out.println(STR."The most efficient participant is \{list_array_Q02.mostEfficientStudent} with efficiency of \{list_array_Q02.highestEfficiency}");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

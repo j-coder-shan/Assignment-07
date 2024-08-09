@@ -7,15 +7,12 @@ public class list_array_Q01 {
         list = new int[size];
         count = 0;
     }
-
     public boolean isListEmpty() {
         return count == 0;
     }
-
     public boolean isListFull() {
         return count == size;
     }
-
     public void insertLast(int value) {
         if (isListFull()) {
             System.out.println("List is full!");
@@ -24,7 +21,6 @@ public class list_array_Q01 {
             list[count++] = value;
         }
     }
-
     public void calculateMean() {
         if (isListEmpty()) {
             System.out.println("List is empty!");
@@ -89,3 +85,17 @@ public class list_array_Q01 {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
